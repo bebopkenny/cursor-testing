@@ -23,7 +23,7 @@ The dashboard collects and visualizes data across five key areas:
 
 ## 🛠️ Tech Stack
 
-- **Frontend Framework**: Next.js 15 (App Router)
+- **Frontend Framework**: Next.js 15 (Pages Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Charts**: Chart.js with react-chartjs-2
@@ -125,16 +125,19 @@ The current implementation includes mock authentication for demonstration purpos
 ## 📁 Project Structure
 
 ```
+pages/
+├── _app.tsx               # App wrapper with global styles
+├── _document.tsx          # Custom HTML document
+├── index.tsx              # Dashboard (home page)
+└── login.tsx              # Login page
+
 src/
-├── app/                    # Next.js App Router
-│   ├── login/             # Login page
-│   ├── layout.tsx         # Root layout
-│   ├── page.tsx           # Dashboard (home)
-│   └── globals.css        # Global styles
 ├── components/            # Reusable React components
 │   ├── ChartConfig.ts     # Chart.js configuration
 │   ├── NumericInput.tsx   # Survey input component
 │   └── SurveyChart.tsx    # Chart visualization component
+├── styles/                # CSS styles
+│   └── globals.css        # Global Tailwind CSS
 ├── types/                 # TypeScript definitions
 │   └── index.ts          # Interface definitions
 └── utils/                 # Utility functions
