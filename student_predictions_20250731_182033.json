@@ -1,0 +1,89 @@
+[
+  {
+    "student_id": "STU0001",
+    "student_name": "Student_1",
+    "predicted_performance_percentage": 100.0,
+    "confidence_score": 0.7,
+    "factors_analysis": [
+      "Excellent attendance rate supports strong performance",
+      "Previous academic challenges may require additional support",
+      "Limited study time may affect academic outcomes",
+      "Strong extracurricular involvement demonstrates time management"
+    ],
+    "recommendations": [
+      "Increase weekly study hours to at least 15-20 hours",
+      "Continue current study habits - excellent trajectory",
+      "Consider advanced coursework or leadership opportunities"
+    ],
+    "llm_prompt": "You are an AI education analyst. Based on the following student data, \npredict their academic performance percentage for the next semester.\n\nStudent Information:\n- ID: STU0001\n- Name: Student_1\n- Grade Level: 9th\n- Age: 14\n- Attendance Rate: 92.0%\n- Previous GPA: 2.49\n- Study Hours per Week: 9\n- Extracurricular Activities: 5\n- Parent Education Level: High School\n- Socioeconomic Status: High\n- Current Average Grade: 89.6%\n\nPlease provide a predicted performance percentage (0-100%) for the next semester.\nFormat your response as: \"Predicted Performance: X%\"",
+    "timestamp": "2025-07-31T18:20:33.038855"
+  },
+  {
+    "student_id": "STU0002",
+    "student_name": "Student_2",
+    "predicted_performance_percentage": 100.0,
+    "confidence_score": 0.7,
+    "factors_analysis": [
+      "Previous academic challenges may require additional support"
+    ],
+    "recommendations": [
+      "Focus on improving attendance rate",
+      "Increase weekly study hours to at least 15-20 hours",
+      "Continue current study habits - excellent trajectory",
+      "Consider advanced coursework or leadership opportunities"
+    ],
+    "llm_prompt": "You are an AI education analyst. Based on the following student data, \npredict their academic performance percentage for the next semester.\n\nStudent Information:\n- ID: STU0002\n- Name: Student_2\n- Grade Level: 9th\n- Age: 18\n- Attendance Rate: 83.0%\n- Previous GPA: 2.06\n- Study Hours per Week: 11\n- Extracurricular Activities: 1\n- Parent Education Level: High School\n- Socioeconomic Status: High\n- Current Average Grade: 68.0%\n\nPlease provide a predicted performance percentage (0-100%) for the next semester.\nFormat your response as: \"Predicted Performance: X%\"",
+    "timestamp": "2025-07-31T18:20:33.038892"
+  },
+  {
+    "student_id": "STU0003",
+    "student_name": "Student_3",
+    "predicted_performance_percentage": 100.0,
+    "confidence_score": 0.7,
+    "factors_analysis": [
+      "Limited study time may affect academic outcomes"
+    ],
+    "recommendations": [
+      "Focus on improving attendance rate",
+      "Increase weekly study hours to at least 15-20 hours",
+      "Continue current study habits - excellent trajectory",
+      "Consider advanced coursework or leadership opportunities"
+    ],
+    "llm_prompt": "You are an AI education analyst. Based on the following student data, \npredict their academic performance percentage for the next semester.\n\nStudent Information:\n- ID: STU0003\n- Name: Student_3\n- Grade Level: 12th\n- Age: 15\n- Attendance Rate: 83.0%\n- Previous GPA: 2.56\n- Study Hours per Week: 5\n- Extracurricular Activities: 1\n- Parent Education Level: PhD\n- Socioeconomic Status: Medium\n- Current Average Grade: 71.1%\n\nPlease provide a predicted performance percentage (0-100%) for the next semester.\nFormat your response as: \"Predicted Performance: X%\"",
+    "timestamp": "2025-07-31T18:20:33.038906"
+  },
+  {
+    "student_id": "STU0004",
+    "student_name": "Student_4",
+    "predicted_performance_percentage": 100.0,
+    "confidence_score": 0.7,
+    "factors_analysis": [
+      "Low attendance rate may negatively impact performance"
+    ],
+    "recommendations": [
+      "Focus on improving attendance rate",
+      "Continue current study habits - excellent trajectory",
+      "Consider advanced coursework or leadership opportunities"
+    ],
+    "llm_prompt": "You are an AI education analyst. Based on the following student data, \npredict their academic performance percentage for the next semester.\n\nStudent Information:\n- ID: STU0004\n- Name: Student_4\n- Grade Level: 10th\n- Age: 16\n- Attendance Rate: 73.0%\n- Previous GPA: 2.76\n- Study Hours per Week: 16\n- Extracurricular Activities: 2\n- Parent Education Level: Master\n- Socioeconomic Status: Low\n- Current Average Grade: 89.2%\n\nPlease provide a predicted performance percentage (0-100%) for the next semester.\nFormat your response as: \"Predicted Performance: X%\"",
+    "timestamp": "2025-07-31T18:20:33.038924"
+  },
+  {
+    "student_id": "STU0005",
+    "student_name": "Student_5",
+    "predicted_performance_percentage": 100.0,
+    "confidence_score": 0.7,
+    "factors_analysis": [
+      "Low attendance rate may negatively impact performance",
+      "High study time commitment shows dedication",
+      "Strong extracurricular involvement demonstrates time management"
+    ],
+    "recommendations": [
+      "Focus on improving attendance rate",
+      "Continue current study habits - excellent trajectory",
+      "Consider advanced coursework or leadership opportunities"
+    ],
+    "llm_prompt": "You are an AI education analyst. Based on the following student data, \npredict their academic performance percentage for the next semester.\n\nStudent Information:\n- ID: STU0005\n- Name: Student_5\n- Grade Level: 9th\n- Age: 17\n- Attendance Rate: 72.0%\n- Previous GPA: 2.59\n- Study Hours per Week: 25\n- Extracurricular Activities: 4\n- Parent Education Level: Master\n- Socioeconomic Status: High\n- Current Average Grade: 67.7%\n\nPlease provide a predicted performance percentage (0-100%) for the next semester.\nFormat your response as: \"Predicted Performance: X%\"",
+    "timestamp": "2025-07-31T18:20:33.038936"
+  }
+]
